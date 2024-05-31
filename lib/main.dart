@@ -10,7 +10,7 @@ void main() {
     statusBarColor: Colors.blue,
     statusBarIconBrightness: Brightness.light,
   ));
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const HomeScreen(),
+        home: HomeScreen(),
       ),
     );
   }

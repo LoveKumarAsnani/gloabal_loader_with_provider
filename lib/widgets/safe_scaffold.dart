@@ -39,7 +39,7 @@ class SafeScaffold extends StatelessWidget {
                     ),
                     if (state.isLoading)
                       Container(
-                        color: const Color.fromRGBO(0, 0, 0, .025),
+                        color: Color.fromRGBO(0, 0, 0, .025),
                         child: Center(
                             child: Image.asset(
                           "assets/loader.gif",
